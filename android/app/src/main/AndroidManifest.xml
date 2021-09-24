@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.covid_app_trf">
+
+  <uses-permission android:name="android.permission.INTERNET" /> 
+
    <application
         android:label="covid_app_trf"
         android:icon="@mipmap/ic_launcher">

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class HeaderImage extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Stack(children: [
@@ -22,13 +21,13 @@ class HeaderImage extends StatelessWidget {
         child: Image.asset("assets/Drcorona.png"),
       ),
       Positioned(
-        top: 130,
-        left: 160,
-        child: Text("All you need to  \ndo is stay at home", style: TextStyle(
-          fontSize: 24,
-          color: Colors.white,
-          fontWeight: FontWeight.bold
-        ),))
+          top: 130,
+          left: 160,
+          child: Text(
+            "All you need to  \ndo is stay at home",
+            style: TextStyle(
+                fontSize: 24, color: Colors.white, fontWeight: FontWeight.bold),
+          ))
     ]);
   }
 }
